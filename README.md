@@ -1,6 +1,6 @@
-# Lista 1 de IA - AB2 2026.1
+# Lista 2 de IA - AB2 2026.1
 
-Repositório com as implementações da Lista 1 de Exercícios de Inteligência Artificial, referente à AB2 do período 2026.1.
+Repositório com as implementações da Lista 2 de Exercícios de Inteligência Artificial, referente à AB2 do período 2026.1.
 
 **Instituição:** Universidade Federal de Alagoas  
 **Disciplina:** Inteligência Artificial  
@@ -12,6 +12,7 @@ Repositório com as implementações da Lista 1 de Exercícios de Inteligência 
 - Lucca Paes Costa
 - Renato Coca Terrazas Freire
 - Samuel Medino da Silva
+- Caio Daniel de Jesus Cavalcante
 
 ## Visão Geral
 
@@ -36,8 +37,8 @@ As implementações desenvolvidas foram:
 
 ```text
 .
-├── Lista 1 de Exercícios de IA.pdf
-├── Relatório Lista1 IA.pdf
+├── Lista 2 de Exercícios de IA.pdf
+├── Relatório Lista2 IA.pdf
 ├── expert_shell/
 ├── akinator/
 ├── cbr_medico/
@@ -125,7 +126,7 @@ O agente recebe sintomas em linguagem natural, chama ferramentas locais e consul
 O relatório consolidado está em:
 
 ```text
-Relatório Lista1 IA.pdf
+Relatório Lista2 IA.pdf
 ```
 
 Os relatórios técnicos específicos estão em:

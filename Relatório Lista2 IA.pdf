@@ -1,0 +1,1852 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 7
+/Kids [ 4 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 8 0 R
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+[ 29 0 R 30 0 R ]
+endobj
+6 0 obj
+<<
+/Length 2545
+>>
+stream
+q
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+Q
+q
+1 0 0 1 76.86614 662.6929 cm
+Q
+q
+1 0 0 1 76.86614 638.6929 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 20 Tf
+24 TL
+33.29386 0 Td
+(UNIVERSIDADE FEDERAL DE ALAGOAS) Tj
+T*
+-33.29386 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 612.6929 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+165.2194 0 Td
+(Instituto de Computa\347\343o) Tj
+T*
+-165.2194 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 593.6929 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+167.0329 0 Td
+(Ci\352ncia da Computa\347\343o) Tj
+T*
+-167.0329 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 546.7559 cm
+Q
+q
+1 0 0 1 76.86614 530.7559 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+138.1339 0 Td
+(Disciplina\072 Intelig\352ncia Artificial) Tj
+T*
+-138.1339 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 499.4094 cm
+Q
+q
+1 0 0 1 76.86614 483.4094 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+179.8509 0 Td
+(Relat\363rio T\351cnico) Tj
+T*
+-179.8509 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 456.4094 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 20 Tf
+24 TL
+87.75386 0 Td
+(Lista 2 de Exerc\355cios de IA \055 AB2) Tj
+T*
+-87.75386 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 430.4094 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+189.4124 0 Td
+(Per\355odo 2026\0561) Tj
+T*
+-189.4124 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 401.8976 cm
+Q
+q
+1 0 0 1 76.86614 385.8976 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+202.7829 0 Td
+(Professor) Tj
+T*
+-202.7829 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 366.8976 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+163.9649 0 Td
+(Evandro de Barros Costa) Tj
+T*
+-163.9649 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 331.2992 cm
+Q
+q
+1 0 0 1 76.86614 315.2992 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+197.3619 0 Td
+(Integrantes) Tj
+T*
+-197.3619 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 296.2992 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+164.8619 0 Td
+(Hugo Stankowich Souza) Tj
+T*
+-164.8619 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 277.2992 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+183.2829 0 Td
+(Lucca Paes Costa) Tj
+T*
+-183.2829 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 258.2992 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+154.5919 0 Td
+(Renato Coca Terrazas Freire) Tj
+T*
+-154.5919 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 239.2992 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+165.0374 0 Td
+(Samuel Medino da Silva) Tj
+T*
+-165.0374 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 176.7717 cm
+Q
+q
+1 0 0 1 76.86614 160.7717 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+195.5614 0 Td
+(Macei\363 \055 AL) Tj
+T*
+-195.5614 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 141.7717 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+216.1339 0 Td
+(2026) Tj
+T*
+-216.1339 0 Td
+ET
+Q
+Q
+
+Q
+
+endstream
+endobj
+7 0 obj
+<<
+/Length 164
+>>
+stream
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 13 Tf
+15.6 TL
+ET
+BT
+1 0 0 1 221.1555 247 Tm
+(Caio Daniel de Jesus Cavalcante) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+8 0 obj
+<<
+/F1 9 0 R
+/F1-0 10 0 R
+/F1-1 27 0 R
+/F2 11 0 R
+/F2-0 12 0 R
+/F2-1 28 0 R
+/F3 13 0 R
+/F4 14 0 R
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 8 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 10193
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+0 0 0 RG
+0.45 w
+n
+83.62205 46.77165 m
+528.378 46.77165 l
+S
+BT
+/F3 9 Tf
+10.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 303.75 28.34646 Tm
+(1) Tj
+T*
+ET
+Q
+q
+1 0 0 1 76.86614 702.3858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 14 Tf
+17 TL
+(Contents) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 682.8858 cm
+q
+BT
+1 0 0 1 18 2.5 Tm
+-18 0 Td
+12.5 TL
+/F2 10 Tf
+0 0 0 rg
+(Relat\363rio T\351cnico \055 Lista 2 de Exerc\355cios de IA \055 AB2 2026\0561) Tj
+/F3 10 Tf
+( \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 1) Tj
+T*
+18 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 664.3858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 18 2.5 Tm
+/F3 10 Tf
+12.5 TL
+-18 0 Td
+(1\056 Introdu\347\343o \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 1) Tj
+T*
+18 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 645.8858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 18 2.5 Tm
+/F3 10 Tf
+12.5 TL
+-18 0 Td
+(2\056 Quest\343o 1 \055 Shell Gen\351rica para Sistemas Baseados em Conhecimento \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 1) Tj
+T*
+18 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 627.3858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 18 2.5 Tm
+/F3 10 Tf
+12.5 TL
+-18 0 Td
+(2\0561 Objetivo e Vis\343o Geral \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 1) Tj
+T*
+18 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 608.8858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 18 2.5 Tm
+/F3 10 Tf
+12.5 TL
+-18 0 Td
+(2\0562 Arquitetura Implementada \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 2) Tj
+T*
+18 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 590.3858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 18 2.5 Tm
+/F3 10 Tf
+12.5 TL
+-18 0 Td
+(2\0563 Representa\347\343o do Conhecimento \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 2) Tj
+T*
+18 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 571.8858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 18 2.5 Tm
+/F3 10 Tf
+12.5 TL
+-18 0 Td
+(2\0564 Editor da Base de Conhecimento \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 2) Tj
+T*
+18 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 553.3858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 18 2.5 Tm
+/F3 10 Tf
+12.5 TL
+-18 0 Td
+(2\0565 Motor de Infer\352ncia \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 2) Tj
+T*
+18 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 534.8858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 18 2.5 Tm
+/F3 10 Tf
+12.5 TL
+-18 0 Td
+(2\0566 Mecanismo de Explica\347\343o \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 2) Tj
+T*
+18 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 516.3858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 18 2.5 Tm
+/F3 10 Tf
+12.5 TL
+-18 0 Td
+(2\0567 Interface e Exemplos de Consulta \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 3) Tj
+T*
+18 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 497.8858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 18 2.5 Tm
+/F3 10 Tf
+12.5 TL
+-18 0 Td
+(3\056 Quest\343o 2\0561 \055 Sistema Akinator no Dom\355nio Animais \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 3) Tj
+T*
+18 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 479.3858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 18 2.5 Tm
+/F3 10 Tf
+12.5 TL
+-18 0 Td
+(4\056 Quest\343o 2\0564 \055 Diagn\363stico M\351dico Baseado em Casos \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 4) Tj
+T*
+18 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 460.8858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 18 2.5 Tm
+/F3 10 Tf
+12.5 TL
+-18 0 Td
+(5\056 Quest\343o 3 \055 Aplica\347\343o com Agente Baseado em LLM \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 5) Tj
+T*
+18 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 442.3858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 18 2.5 Tm
+/F3 10 Tf
+12.5 TL
+-18 0 Td
+(6\056 Conclus\343o \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 6) Tj
+T*
+18 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 423.8858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 18 2.5 Tm
+/F3 10 Tf
+12.5 TL
+-18 0 Td
+(7\056 Refer\352ncias e Artefatos \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 \056 6) Tj
+T*
+18 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 402.5433 cm
+Q
+q
+1 0 0 1 76.86614 376.5433 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 14 Tf
+17 TL
+(Relat\363rio T\351cnico \055 Lista 2 de Exerc\355cios de IA \055 AB2 2026\0561) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 350.5433 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 14 Tf
+17 TL
+(1\056 Introdu\347\343o) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 293.5433 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 40 Tm
+/F3 10 Tf
+12.5 TL
+0.521732 Tw
+(Este relat\363rio consolida as implementa\347\365es desenvolvidas para a Lista 2 de Exerc\355cios de IA\054 AB2\054 da disciplina) Tj
+T*
+0 Tw
+0.49698 Tw
+(Intelig\352ncia Artificial\056 O documento foi estruturado de acordo com os entreg\341veis solicitados no enunciado\072 uma) Tj
+T*
+0 Tw
+-0.117018 Tw
+(ferramenta gen\351rica para sistemas baseados em conhecimento\054 duas aplica\347\365es entre as op\347\365es da Quest\343o 2 e uma) Tj
+T*
+0 Tw
+(aplica\347\343o envolvendo agentes baseados em LLM\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 250.0433 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 27.5 Tm
+/F3 10 Tf
+12.5 TL
+-0.015877 Tw
+(As implementa\347\365es entregues foram\072 \050i\051 uma shell gen\351rica de sistema especialista com encadeamento para frente\054) Tj
+T*
+0 Tw
+0.615984 Tw
+(para tr\341s e h\355brido\073 \050ii\051 um Akinator no dom\355nio de animais\073 \050iii\051 um sistema de diagn\363stico m\351dico baseado em) Tj
+T*
+0 Tw
+(casos\073 e \050iv\051 um agente conversacional com LLM que utiliza o motor CBR como ferramenta externa\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 241.0433 cm
+Q
+q
+1 0 0 1 76.86614 114.6433 cm
+q
+1 1 1 rg
+n
+0 126.4 470.5512 -17.6 re
+f*
+0 0 0 rg
+BT
+/F2 10 Tf
+12 TL
+ET
+q
+1 0 0 1 5 112.8 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1.4 Tm
+/F2 8.2 Tf
+9.6 TL
+(Quest\343o) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 64.52756 112.8 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1.4 Tm
+/F2 8.2 Tf
+9.6 TL
+(Implementa\347\343o entregue) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 211.9291 112.8 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1.4 Tm
+/F2 8.2 Tf
+9.6 TL
+(Atendimento ao enunciado) Tj
+T*
+ET
+Q
+Q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 5 95.2 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1.4 Tm
+/F3 8.2 Tf
+9.6 TL
+(1) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 64.52756 85.6 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 11 Tm
+/F3 8.2 Tf
+9.6 TL
+(Expert Shell \055 sistema especialista) Tj
+T*
+(gen\351rico) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 211.9291 85.6 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 11 Tm
+/F3 8.2 Tf
+9.6 TL
+(Shell reutiliz\341vel\054 editor de base\054 regras SE\056\056\056ENT\303O\054 infer\352ncia) Tj
+T*
+(FC\057BC\057h\355brida\054 explica\347\343o e aplica\347\343o demonstrativa m\351dica\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 5 68 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1.4 Tm
+/F3 8.2 Tf
+9.6 TL
+(2\0561) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 64.52756 68 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1.4 Tm
+/F3 8.2 Tf
+9.6 TL
+(Akinator \055 dom\355nio animais) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 211.9291 58.4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 11 Tm
+/F3 8.2 Tf
+9.6 TL
+(22 entidades\054 20 atributos\054 respostas Sim\057N\343o\057N\343o sei e elimina\347\343o) Tj
+T*
+(progressiva de hip\363teses\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 5 40.8 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1.4 Tm
+/F3 8.2 Tf
+9.6 TL
+(2\0564) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 64.52756 40.8 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1.4 Tm
+/F3 8.2 Tf
+9.6 TL
+(CBR M\351dico) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 211.9291 31.2 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 11 Tm
+/F3 8.2 Tf
+9.6 TL
+(17 casos fict\355cios\054 7 doen\347as\054 similaridade por cosseno e ciclo Retrieve\054) Tj
+T*
+(Reuse\054 Revise e Retain\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 5 13.6 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1.4 Tm
+/F3 8.2 Tf
+9.6 TL
+(3) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 64.52756 13.6 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 1.4 Tm
+/F3 8.2 Tf
+9.6 TL
+(Agente LLM \053 CBR) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 211.9291 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 11 Tm
+/F3 8.2 Tf
+9.6 TL
+(Agente baseado em Claude com tool use\054 mem\363ria multi\055turno e consulta ao) Tj
+T*
+(CBR\056) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+0.45 w
+n
+0 126.4 m
+470.5512 126.4 l
+S
+n
+0 0 m
+470.5512 0 l
+S
+n
+0 0 m
+0 126.4 l
+S
+n
+470.5512 0 m
+470.5512 126.4 l
+S
+0.466667 0.466667 0.466667 RG
+0.25 w
+n
+0 108.8 m
+470.5512 108.8 l
+S
+n
+0 81.6 m
+470.5512 81.6 l
+S
+n
+0 54.4 m
+470.5512 54.4 l
+S
+n
+0 27.2 m
+470.5512 27.2 l
+S
+n
+59.52756 0 m
+59.52756 126.4 l
+S
+n
+206.9291 0 m
+206.9291 126.4 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 76.86614 88.64331 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 14 Tf
+17 TL
+(2\056 Quest\343o 1 \055 Shell Gen\351rica para Sistemas Baseados em Conhecimento) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 67.64331 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.8 Tm
+/F2 11.2 Tf
+14 TL
+(2\0561 Objetivo e Vis\343o Geral) Tj
+T*
+ET
+Q
+Q
+
+endstream
+endobj
+17 0 obj
+<<
+/Contents 18 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 8 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+18 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 2764
+>>
+stream
+GatU4=`<*((4Q"]3%l(e$X)%E1BI?6Us;E_1okVg!X,mK):Oj=7?ee$^]&\;>"4[AEMqj8*`CM@Qg`9K%mRf,SJFVs0'W:n:OYQq>Oj!tU<@b&EI%-R`3X)?s7aHk@et(BdQ2K6+Riit&pLbSPF)]7K=)Z$f))S>^78;o+`/c%cX$8j4+d-cTDQ;=Tbk;@R$^L16j[-7F;k'FQT'$^1V`MfJdc9nM7ZLq5GBFV\D]JT6\/+[3E_CeO(kj9^1ZO5gmI2Bj%Za\6e`])qN=%MdPP=K.+EL`kZjsad4Mb[TWP;2;96$T[$0V'0_T:I$AV5jW6ff:%:tt\mOD?uo]>K;bEi]=U)'!YdPQ(SWiM/#-:q/Z/\8&0k#^Z;UrT4>IdF85[?W4?@L%?RBH!.NP#TV(6]b".8R;]J74&GbK!qD)8:55T$ffZ.;FQjD/,E5$;AZ@O9;B__1=&NKTF:im)RGN>Q#'iH/!I]YOc?s&,W$C\C=]1hL.9drSgn/#Qma@]-.jc:0!L:-F\dA*!YLDhK`a,`CF/LGXpjZ%Bg/%GdZSMtXd,ht17b^`=Eu5$6XSkb<`HCKIf&]p4esSN=/NFaa>0W/a\;*ofiFH!FD%lOE--g"K@/f$O$o>t-`aJ0Y1L6e(o"6s+flir>4!O\No?;'C5Wp:)Lf]`&.(mnhUd.\Wcbb222B&E$])@H.W#U#\Wr%>`V8V#<D:/i`^]!?UI1nIOGFO`jEU-8-ofN?e4sTM;TTnZ03`UFVOq;K3*<_ldB4lXpjl^D539b$6IEqsiu"'Fb[4d]9A9A-ZiBij@'oZ1V?T4=D1X-@`hffA1tJh3FrN+9Q.*2O@]%cC;)S82E$KW%GV0LPAM"MiIj6<WD!+Ff:FX!:P5QAO_PKL>fms\?^'qY<U(45R4MQ<sQDc&$pQj8ng04-nE%O+@Z3XI!o0OYP7IK"L>s9<30uXF#J$"(]obDS;,DYZ*4E"c/BPM\?g9P!d^?R27heklCG4_$9iPp:PoKB$i4Nm]@RNBfI?C@54)"FE!JI`YhC0DRq9mu4p>ua%hkOC+\8_(33r/qWJ\!-_2RaNeKpq>0AEgc=U.nJ\=E@]@V/[D:5E+G]:^X)cD@F^ELoNCTil.Yk+68l[\!QfZ>QM0XkUQf3"@)30nmdk46%l-7XK\u;!jus%kRROK"(Yo8tcdJDV4S!+=hX'Ied"B9l.)BObbJ,T%0F5!k:LD+Vi.nFJqT,gpLTp[B4hDaVL,#blH"bgI6e`KViiYb!r+OW+PP#e0H[S(@g6fQad[2*d!Z&$/CVK92_a7GUZ$OOB]TG)Yp3l@8>C1mEP_<pnM"f&?"E+$Q#`KZi4dm0#0c49^H7)>>?TAc-MZhcS,u=X5<fDBV#gJ84!Mr.s6@cO?LN5J<1^dK"Ng;Vd59R^-VVl4sRi$1.N=MleiGM)!H02-n&d$/"_C\#6#-+K"<9[<A(@o.cpP2BX`eY[a:EdYWf=VeCk*W?<D5.qS9SNP[Dc&aC!Ji:BCOc^^IA/'L/dp9nS+J?1cUZ0n&5=CUNtCYD(FG@lSHC+rGdSj9Jsk(jruZKX')agibAZa;F2H4f>Q$F("^`X4X]o>(g2lriR=9rQZYs**oZqMsrRY&OZMEhQ+]/<,l`qmGG>p$[n`_&Qnk!m[5Eb3KposWL^R^me)M$-4e.hII%e?mHX,d_.#jfqba(0-[T4N]n?]9r4?;E?9)3GMUY((OK].;3ci\$Q^b_J8$Ih:jsL_-Z)i7YrTP%Q5(5Wut6qLsHr3-QI6PE9?SAAT#E!Wh$q6@IO3Z/<Z6jK>nCJnXMa!)aL5Io^ar.l\)\Q'7X""b!ph4YencokCrM@)mDPh!Zo2L0eO.:\300POe$2'ck^@@Tq.2.T0Ngm&Z\]\est61M+@G%F0nXERce2XS9/:jB^4Yp's/D=MoLc0_GP:Ojq.UP@t]b9#gp(j=eNoLZ,]4$5;>NHljJ=,IlIsd\+$X$$EutX\%7e;a,A)J^(=4TJ*n<889u_Bh\apr-VSH8fgU)!"_@Ynf@d*0o3\ch)D4F_<g?7^*R7]k#8bJ>-C$P*.%SBIrBg"o/@0:h&u?E^N9oO22@a;ZStc^.9hm?FsOdm\rp=U)c^SZ*"I6.>?UZ^+Rm'F,'RF)^c#S"jB&0#+A7A8%daDZ3tCs&NRb;!2Vgku>H<qK^feU@-tVp&Q<RN.OQMX9T.3nS?.^dFrTmPA]Dl$1ni)-cr<q8?,jWNUpSDU-(A.L)?EjA;*2O'l@75n;-.bm-:4L;AX[Y0q3kI,R`GI#2c?tY8?$VXW@MK&t[u'QZq!aPV[?ui+aTVJE4A4R9^&t`^C?,gs?%Y"&mlIV*:h2tC/*m`"GY'jN!R=($+M(qVA*"g+`tK$sdiZJ5jP)-LB5mQrK<Z6uO7o[".L$Bl3ks(M-mkPKM$O&!.h%q[;kH,h1<gBY+15k)2#-8:)@'_?MQZ'oX5pAdB`&mcq9lB\H$sVlNOdlk4P*7(d.dG8\!%V#B.lm7%IJ9hVldWAlsuirMnEiLV)A+jXYBX\_-Q,1!?56tbTNUdQ^Et=>m+gP"FcDo0al_-5[V6:)J;'sT<q%ShKJ;:)(su%//G0BVX96M<^?,E:5C`E6BeJC;PoV0hj,Q-r%lgN2<P.<19lon$-&c1*PPFJ?j9aa0HsIR8rLQb$[F7R-F<=I=6E2^4cu4+bS-9cquB)5]`tE6jc6"-Y_O!\[@R!$(2ID-BmBs$1h&_XHOA=/]gVPK?QE6[=?0PoOUQ@&ItLH7df~>
+endstream
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 8 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 2891
+>>
+stream
+Gau0Efl#P8(4GpYgm8%(%@IeeOd\S5iRgnL)X39G)"SHW.$5gdga#POiWT5QI;X$:.;K;SA&A\r@bq"<F%\DcnSOcQ;+gKCNaBE,a`clc8[`8WFSDAEm`rP<:!K,&^RSGu:Z'GQ$=.H03)cH^R2#kubbp\Q-a_YOgtYNco9n:\V7G9"C5'ouonN:"TA,>DmaSWGT6M/jk0<*BV/uC'FSA=M5OgfWTh)dRQs&BaApZB+6>IY=+Ug&cq&A(#=;=M<JVW-s&!JX4^m\+QC&-4CqQ%(8'Jo#7S\;-BT6ppEpYM`%Ib7;mfd4"aj5po*IElbg1)K$gf=+gR%*[oS@QU/=Kn:rhF=YotThJCYMGg>+ZA-BQLQ$B=f_H4%ghe(glMR-mA%Hst.T>$c\@pp6?)qEdEe.>qE`#Y44n<N^`TiBI"^g&Q0+3*Es#.t#!Us@(7[0oT8l]?"j>RfDLR+[a"fZ;eEu"#Xg8d-[dY@NoqS!QhT0MP0n\X^)<XN$nqFTbD(QYk$:R^+'_?j5IAf&g0MIj5rjFl)>?WD=qMfn'=V+>Q._M(<T<E/>*>j4VYn]%R).r)t/_!rdOa%-e$hdod'i3uc$fHTP('s2UR%r.(\EFGY"fc[n<A24P\>Dj49(l;@fZCYgom..u2pj%7INt(r])uMGBN/3m)gNt[rgn+4@p=ATab490>$>B;i/)mpnp^VhNpU7VM-+Z8[epD)5gP5tfHOnADrQr"9F^S=Vm\3YHj&R-YE:!ck\DA6$euqA#gU<P_AA[RrrpMTTR4=<DZ)!lXlU419Y'\[ohF-WCn3ciU@gW@)h^2<\Q@.jYB3GkVIR&,7kkkOZI9kp"0$()&%9/LDbA#@h>!]Vg_657<ht\/SGD4KCH,9Qie9NOCd+AP&)Jb7K3?*=g-e+PDAK<=7mKPJfW7.F>#2C,M,[CilrbEf/eI2g#<ES/DeOXK*l+.0Ipl!CS(2nc":FM-1JpRT2cF5NQ#eGU^N0:3>]qZAi.Xs[aCa/!blqPFtELTVpOsis@Zar4C3$X3JMi")sS?rJ5S@VquS50t$U"e:KWSmP?DSi=[`)5D")8ca<"ac4*Ge_A)$$#:i:Xf-82<:9R?i4Nh8*":ogc=<J38V:OXY)Oodo*6tl#7gHW`48-E!&gA,@p%V4dM7*HVKId'9_%Df(F(%-._m?,Sir4qNc8_Er"L]?;SN?]n=)kV2,t:!R^-m60!g4'XFHbMT:pt$UW#X?,kIF%bn;"7/Lo10gV*S;EfF=X:X)4[ml9>oNED9!ft^M,DCqo#t9j1E,?3Oj?_qP4>uPeb^,?Z::gq<@:>*Ga@Qf`f`q&UCNN^8!rY+l3>-mIH%g923/)hYr8A0LSP8B9AZh2Ok>EkBY&`sle5rne")O8pDU-X$bn&m>S=<eYlD4mh",,\A5G<DZd-h-Q^sBpf`U#_F+_;@%^/e^.0d[[4MI8Kf1'ck]?m9YBE'3Rm,2]h>P5u*K+4&D3Se[h/U0hrKQH+t)049Sm0Y$&A!pDBo8<[(C<$fW>)QgfU@^Ts4k5`I@5:p,gq!Yi\$[[?Xkj^Ei40c<I$'W<YYkm3[,_5:[W.!\4s0ZPca/p:6@<\?shbtlJ>0?koG.>e-Q0R_o@,2Y`;F6kaB\[UH&3-XZUO/-\kAm]*6LXH_GEL&Fr;1oAF)EJ2\`?agmX^_<"%5+Vm9t7nnBe;l4ZYE\:Dt2_:,)^?W<2+OM4'b]g5AG`]eb@(o8[mC"+2AipF8TjmP.e"0dCtj\J!XF]h?*&T>66U:m(>WE'<X^PVQBt;.g=IM5s088nT?!3a'?[jV%h$cjL8gZ)G9X4R?Uh'ZheP)=6Rse+P<J++B0_YlotW<Q7D>dH'3+qafkGr!SB/HokiuQor3g`ekK11Hl]uZBb[J,BusioBoj:`'Pd;Ic;W]0b%J,M@CH9HN1.VCft=l*%$o%"YnujXSO7[^kG<*9]m*'oN20^R/Lk+"\F*+U5bSb1r.A[<-='i:?WZTamF-'1Bn$&*7ppG<HeN,=>jI3k@U[)r)70?<]M6@?L+tYNi'unV*^`7o8`\\rbYlJh\#@IX9<jdZ!T"YjqnNY]g>,)oPKs4n&IPEDGef9Gq4?`"4Lk2"Y8GghQi`qg%R1K^ipf7)VC`")PnQS-+\.2%fl.>9nc9:8I7R<K<W@4L.7BeTGd<:)]Ko>VI7c]>#\2p(0W(`A@g\.[uP6>d`phar2?N6+i2Nnc7@aH-GZWToI"tIPRtJcj+dRZPp,qq`89-m6Cuj1Bn&'=T//gKPcBK`=n=#.Y6n8NT]YH$hUJ-V(3,0C4]X#+[OpPF3;IB6i`tuCb=H.^Ua&*c/7%Z`[s,JUjJ]"uef8ZFL7B5Grq=46'1'r,gY^MtEV%2.m+:#CN6iaubuB(tO^QP?`sr-BR0rr@*,\dDIt^kB/KHL/_34sl!2#3q!l,pa-^'\Hgs:;klB'i14*Ea][<K&m15_.(po*7F-78rlTMTurb`A%b`8\U\a9,NSS>9-H'FC9T7f=J!rA.-P"r*MI3)2nSG(dtRX\(d.)SFT@TAbM#F-%J)oq-/bg\HTZ*[0sbQ+O#B\)8P&*Y)oa7bZ'(Z?gTJ54lK2X#JYt6hKsNX#JW>EVG&GS;+P_(S/QmWOm"o]r(CreD1;)q'=_Ap?C/?r\<'qhA=hq'O&"VfaP15pR9Q!_rV>GXO?sHNgk$i;&G3Z8%SI3Yc.gSBc'4Wh+)OumX"kc)a4$_W<Q"WW%DcU'Mo7"hr1'(ht!*]$.^;IKS*u8LP_<?\igjt&'#Gc!IcY"VPqM(k$sAOd9olk#-r5-l?rh="_M:]]VUh\berT7'(]NMVJ5tmf4K)7ME@qhog]^=R4^lO0Le=H6((VPSf#5eE,?(545L\_cSD!:e(NVKqH]0~>
+endstream
+endobj
+21 0 obj
+<<
+/Contents 22 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 8 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+22 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 2999
+>>
+stream
+Gau0E>Ar7U(4OT53%kB07A>[j`UX$+OCYYT%Pk^CfmO3N5[1V=64t;2nc\pao,UGhjWq97B=CSSM3N6;4I>N3"SqgCh#F^Nkjk</r)8[odJ]S'k_4,.6eD&[O!hYgk4W.0?5V's-NtfI(QV%76t,GAa!-NlVeD<>_)U*VATW.UedQ6OQLqkd?*[V[/pL^0C'9"DN?dF__DmM=5,Zm!*Sl4CqtL$6="(A'FrYj#*/fou5-C%sJH;=5gWTFMnfhD!oani9`/WR!WLOiq)Od(amW;4$VG@^g(`6/8bG':g,*>f8;H"3WB!OsM.P"aff!mVKW%Mku+fmS4<OjqTWn(sM8pae-^M6"rNXcsMG3JD6+qTU(qnM@e\h#/,ZEhoX^!Mr;2mgY+p'o"iOta8Y'=G95l9aWZ-?I-^Fj<e#N0UZ*;Z<*Kd[BVU/X9Vk74$W%bik<e<DL3,Z"2E$qG%D(pl8trYL.EX<GDC601k?:$DWuD]9JS[jC^?WYS%#X%m_27EerbME59aHNTWbVK\+5Og\Chnf2!l'Al):NXX`Y<P1]!9JtoU.'9%=T?O/:R<8pi4fdK/sSVs`h_fD3\hpTe!dr&Z^?u$nt`A-q$?S$/"2C9`072(JcPHJG1G%s65]I40inV6`*e0AEc)AP'H(4s6FZ&^sM"qaI\gS^eMG+8%raL4%H5&Z14[m.4M_Lq$gn+FPt_sRp[G\s&QZ"*`;k&=oh=4Wnh_FcF#94KJpL;^>#cQO/\=#AGq5.X'Zkuhq@DNVd>#%X^FfsT8+88abl00T*Q2BD7cO""h"SjO/j6mVSQ;_`Hn1$ZEeqaUt*QuYVW]Jml(B`5QN7r+a#<-N2i_Cd@0FX'PUT.mI,;H7sSAHjF$nS7b[0A5se0[C8&`u!1<k[IDa97G)jh)=ur%NHq^2>?kD500irb'kDV_1&$UNdoqniZm%^nkCpU*M]=F4kCY1*qhP=oq$E=N#0M/1T'?M=b4t(JTq;:HgeQC[Bq'.e\+Ou^RfP,X#K;2S&n7KmOYEhh/lg*W$9O_4Pei#dpI;W<,oF3L].bh,XO^e@L#(\Tp8]05cSYi7,a4t-='tK";-EQ8C>,pZrD4f=bD\<l;NZ4n2s(#?MWT4$ij9c8B@P6WoTA].rqL<:sRj0ghf>"DZ[P'Yu=3gr\"\q)JE7DMAp@;e01104R!i31b``ta'3)bGp?<8:t7K)Z4qM(@q?/"M0DQ?KE6p5=Dk)<Cu\#1J)YQ(J@H@E[-Qk^k!d[,j:![#r$p)O=H:B)6@X^T`aI5Q_D"</o@O_V_+SmFg,(AF`_;AucrdtXq)0'p.'p/5Q8k?N>X&A*5REQp-*>#q(AK)?EZoS3Lod\LedNC,VV*8?XSe.u[r8@F)$146`8t3R@6cb4LR0o4'O16cK=b:s^kX'EI;h"h3N(2&@Oi-8\^UdLFPV2-<\[.,E)80f%_ENh`==C08%Kolb$$gD<RG%'dlA&X.]?A<<]0;S9rH!A8f!u[1V'T%.sp"Y]T^pJ/qQD+S4i.f+FSn'9s4FRS>r0HZ=j=[hOVe%<9-V(1j53*GFB7!+e1d!RFZ3n,"+5pZ'+W\=")i]Dd*I.;q:<'rdjVr`&?h)aL7`Lg<`t\G'8Q\IB=7-B"b^uT@7^^0&Z^gE+q[h1mJSQQa!r9D+kcN`,cKN%gU4$Qe-rSa.pRk$K;5:#`lghEgabc)fKbZbJ%\&K6#-R=(=sk&od0=S7se>b#RYlp<^_Ae`H294'G5d\Y[^.'NKCo8;L:gd*`f8<lg4F[WL8<q:]Oh0.0W,e.f0<;Md4uAXo1DM)$[s&aX(MTYR)O"dc"$4\n#U&N,]'-%^4KT<_cOVV^&G-t5C/&fh.+9raSm]<_dOeV.[nC6`e8*"ZYU&AA!amOA?LJ@Es.i=AA`YL'u'>*lhS9iaYAnY/"7]LBt3`B!0FH9A<'NePgem1Ze1FX#P"MVZ8n.h't%NKSE(Qdh)-I2$*DBn%<!;j0/]c.l^#e>U6(ciJlA1HLCdO.YN.q("Lb?@jk9IK%R5hp04%$s<l0JrsW<lJ*)BPEQT?7\`"3,%]"R*j1Vsi75+n(T_]CnD3=qQBa>_Ffe-r?"kgqI9o$\33^kiG>1iA#A$>8e^/"*+3A'+#=kMpU\:-*jKH@4i>S0MU-8$g9l]6<[IF46p91+\'Lf23jiqN%!*:-no9O4sJ>pc`4S[$%HSiM:=NiNaRV`&\_!O<`eo_/O9e[4lP=h7FA7$miJA5#p:#&c("FInMVYDSAh"6doN>-f(\X*Np++9[dDk7e6L*t:qm:8RupJCO=BgQa\h7o4AM_JtUNhpnX)gcbVjO#CDp$SI625)B;<cWuO0/5QWoftVf@+6>_G0tFtgfR5_LOcOpIlk1$5#b(Bb9*`tZ/"elT0G=QV0hA[p8k5[]c,sNH&'AIgV?r64[!<>,;BP""pF):p5pa=Cr3q+!rOSGFj>D)JR6o=Luu'u`cHh`$'AILTaA)J^i/Kd"5:n&VKsDtR>&!Ue1l6WX]H32r$Z<pV-%[A2@A$eR4HI./>1fHSiC]6MHA!e'(aQBa`5=5_L1(r*)m"Z_e43T"J[j"6.W(/MfK/BXT<msR(bCa@SA\HQ.a^q/h1Jj?oUd<&gXE()dp%<X0'qNBJSuM>\6u/KiFoECqHcImNP>/_$RB<@W0QXQB4,T^SduIJe/+T/]f\]-kUs`A,Z8;Dh)dkp;@me&J@9a3_$KWmH,m8^=f'h1RpY8llr]/A3Q`,+JIg;7Jl>&rO^@]m79mE3+@(sM,!8\FIff]%\_0Xc*'0Oo31mDZM[-fXg%QE[m?e@*<\#QJY2[`2TJ,2S?"gQDO<M+KBN$6MGL4]gTSkdF^sN`^mGB<c:nAsRpWm32)d4lW`8fuB"Y]V1%.Z><?Z@QG(%fTr_mXY_s,.n-2?OcJ:hm!]0A0dVoq:^`]eoiQB/Jks6I5qNZR%cjurCX0A#4pmgaiohWTG_?jCeMB4)T"_0f.Q.@3pc^&ZR&hqJE/l2~>
+endstream
+endobj
+23 0 obj
+<<
+/Contents 24 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 8 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+24 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 2730
+>>
+stream
+Gb"/(>Ar7c(4Q"]3%k<FKfnMe.^_MBa,(UM]pjr94r"@CjN*pEj=hQOFnXGU3Q&H[=Xqmnqlk(1Lu`O#rVOkXEH(E&gOJ5li:S+\?ZG!VgoZ/)b_NeLG^FZ*q8BOR55t/,q#UD5P/G^XU$F`?p`YP>*X7]li%CE6/VdOZgn*.]4]pAh*O]dnCc3gdkW*S3n/RKX!RNHJk_F,D_.iBL\GI<7^8#m9TH`4G-tLLTj?A5<BAPCGU&jsBrSY+EY$.PLOi)bN%6EM]$_`fhrb`qWr5qI9XE&2sD'pTZLn%jshPDq*P)hB1bE?#;X\]GoF8E<XKpX8Q<hDGcF8X,X$3Aa]OigA[Q2&Vq,Q.6,QFNobr$=E,FQZM9GhZt\PZ=^D7NOI1^5P^I`cWcHW(a%^</F-kT]I"c!O9pESQ5e;<'&D2n8Bk:2@Bq;V9<-)M8i')RE,"N)1]1_R57!&Rj6.L0AmWk5XV9a6iNPkHDXTF->Q7O#tb2FVQIt%$"Z.NTjohe7]1C$+1N^pd!M%&aV-9s\MHCR;9-1U^4c6dbZ':)f2*DAN0d.8$ER6qU!:0gMm?:mWdO4i;a3fH*rV8l`tdX;.M+'oD#)<BDah72*3_`cLm0AST=:+an9"rGhIsEJ"/;r?7\1cmGFA:@rr2m:d4J[:"(L7)iHK1kNUAllgWm$@[,Um>bRa5>"P`s?!cFn9^>k:3[F^tV^h"2Xlui'L$d`=WL\A<+BVBqJcsAXA\`5T!+eALg<p'ut;&hP#M/;+?h8(B(>2\P5[>\jQ8VmE?8KrO,;G"C>.9Ph-L!pD>3)]&`ZD1\#C:ZL0/>$q0AW+BO/QaT-i-QN;07aZT%>sI<QC.S^Y:)=pFQ'qq>L[e%ag+2"pe-EcGpL-hX8+\0J#N,)7.8P!&hY3khcB`nHh@L!k7AiOE:%9p-sSC!=8S,cpThOr_!6<.oF'YpMqin6+;.M,;F"^9rW/uLD;\\"2GtB:faq>]f!:NcX@1bkG?X2C=V$?C'1dWL^6F=0Pr:;d4eGBfQg]C:IWNM1LI:YJ1)pOGAr\%=U%&_X(4PimQ$4&BR*ZhKfmTP[Q;&b?T[U<IW7O;<.r<%<j&J]M.-s*Q==H@"6o*EgbpffF-rhG*$0Ra7b&?LIc45V>G+!;!EG+5e[1U6<0>cj-dSP$rS]kXD0!/(=Z&(*1hFC6rKSW7\I9M7X&@A>)bb([1eW_EJol2S!Y]<MQcn.5[%@Bt;1_@4d:KmgGI0@`s]J]j_WW$A&[>Q91N=mi,0DYj!)Z`1oR!YbDLfi"-[j)6kEs'X+>aOJ]r!/r><8u$NS;:a525c7aEf+FcrAp8)=tBK[..reHn.)l*&qT!V[XND6i=%=I'W&ZM/8,YeE>%J;/.=3u9JZku=uMIXW-#TjEC^\e3-W%YZ:aeWRahaFZ7q7)-;IU9`iT</MOp%^,dHqHL)7'0K^\\PK**&9q*lhHQXf.^6!apkk'LP#jj1?Y>PPD"lC?91nd1#jWI9j(pelukJ&Ml5nY:`QnbO<O[ulM`d00qBeC%<U[lcX&M]u0+(_'BqE*k`[!5(c?#_Z^m2`LatXHp>9%]\VP]/,2JJ1h#QeY^PY8Y#EPN+&a6LW#TZKk8!Gksj)L/?I^J3hJI4<c\IH2T&4pPfASACDZ$u8Q\+;/6B";>!6j(a&O#8ck5aMV#nZ#4ERb\Wi8<K\'K+meYPg=mr27V31IhIl]6S,4Yjre5(e'T&E%kC8UhqR3A0JfDFNm^1VH?h@JP=M1:D0i%)hEb<bsN4'c1NiVQ`H'WBcQT8m=eb$',-8aMi+i+I_pJ'rB/j=fMFWBmNsaV.Khq'<ODE/\Q+G(c1jq%ft^0JQCeB9\q&\RQN]!0MX2p/,7Zl;Q_m;bZ,sQpK2Z%'qp21KoIECfT3sEDL3k\cemsJB4:3i!._Btl!P]J`>AI0ej%L%bo9e($kta,S`)Z@T"\]5O'],SJ]h$BM9W(mfFio;cNtNr@&?$D:fVp!?a9_Va^BEsM_Xra3YqI4g8U^c^3cBaO7cAiO.S1!=e1#Yl!'T"5I=.E#5!XkWTanpd\G$n;iKPJQ<ob>H*VRgETkp$%7:oT-6CI,0_E$)VXV4#`bTqFFSk35WlU+2H7X34@VYlfk-gcq$V'*QgNW[Pg\=WXK(.20ZVb!U1=b4.)e%.$H@>-lQORo@Lc%MuK[0(/qPcAn6,t"qj<X!k1[GDq5?j?;3Zlqfs&)#Fg`H9uDBqS?@uGN'#@E[E>MYl:b,N*6ZJ5kG0R.B;oOAWrE^N,B,b7!Lgk?V7c`p=QrWc5u06N"eHP&J%NY1u\J%h/J;9]$"1[5a(%\#FbKKV.oA+'Vg2qOFJO34g]3]8N6M#0)#clH(,[W&s>)m'M3gP84Mb(pa[>nOPH1>Z0Y(?c#91kEiTjmt?Bd3RBbjc]EpL9G!nW(-3NNc-TR1NjhsQ]7C"db8-p9IX$[3')S(4!J-BHQ4F150d'i5_B##G(u?ESU&ij`#_!a(Pe$A3QaNVqCcrN/mOAa>QVc_XE<<HLNEZSH%+X8mMEX9jZ#EX.Zpl"^bg)&iUj8efZlEc8V*(DhgurfZ&X$)5JCL<S]r4H45LM8+lGo?G%bJBmKA;Z7ZK(lg-Q[,0./,7pZW&mlQ'DTjB@b\R5R!F<o1X"WUE]>W`IV-$-\@<RCG+gISVG&];Eor0kV2djElt;*D#,XDT49rZWWqIMr*Uh,Rrk!SQ/0sn[@CqnmCr]/+!~>
+endstream
+endobj
+25 0 obj
+<<
+/Contents 26 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 8 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 4142
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+0 0 0 RG
+0.45 w
+n
+83.62205 46.77165 m
+528.378 46.77165 l
+S
+BT
+/F3 9 Tf
+10.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 303.75 28.34646 Tm
+(6) Tj
+T*
+ET
+Q
+q
+1 0 0 1 76.86614 705.3858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.8 Tm
+/F2 11.2 Tf
+14 TL
+(5\0563 Exemplo de Intera\347\343o) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 646.1858 cm
+0 0 0 rg
+BT
+1 0 0 1 6 47.6 Tm
+/F4 7.6 Tf
+9.2 TL
+(Usu\341rio\072 Estou com febre alta\054 perdi o olfato e tenho dificuldade para respirar\056) Tj
+T*
+(\133ferramenta\072 list\137symptoms\135) Tj
+T*
+(\133ferramenta\072 search\137medical\137cases\135) Tj
+T*
+(Agente\072 O sistema encontrou maior similaridade com casos de COVID\05519\054) Tj
+T*
+(        apresenta confian\347a\054 tratamento sugerido e diagn\363sticos diferenciais\056) Tj
+T*
+(        Ao final\054 informa que a aplica\347\343o \351 educacional\056) Tj
+T*
+ET
+Q
+q
+1 0 0 1 76.86614 625.1858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.8 Tm
+/F2 11.2 Tf
+14 TL
+(5\0564 Limita\347\365es) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 606.6858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(\055 Depende de chave de API Anthropic e conectividade externa\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 588.1858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(\055 A qualidade da resposta textual depende do mapeamento correto dos sintomas para o vocabul\341rio do CBR\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 569.6858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(\055 A base m\351dica \351 fict\355cia e educacional\054 portanto n\343o deve orientar decis\365es cl\355nicas reais\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 543.6858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 14 Tf
+17 TL
+(6\056 Conclus\343o) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 461.6858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 65 Tm
+/F3 10 Tf
+12.5 TL
+-0.115383 Tw
+(O conjunto de implementa\347\365es atende \340s solicita\347\365es da Lista 2\056 A Quest\343o 1 foi coberta por uma shell gen\351rica de) Tj
+T*
+0 Tw
+2.404123 Tw
+(sistema especialista\054 com editor\054 base persistente\054 infer\352ncia para frente\054 para tr\341s e h\355brida\054 mecanismo de) Tj
+T*
+0 Tw
+0.086107 Tw
+(explica\347\343o e dom\355nio demonstrativo com tamanho superior ao m\355nimo exigido\056 A Quest\343o 2 foi atendida por duas) Tj
+T*
+0 Tw
+0.363607 Tw
+(aplica\347\365es\072 um Akinator baseado em elimina\347\343o de hip\363teses e um sistema CBR m\351dico completo com ciclo 4R\056) Tj
+T*
+0 Tw
+0.804873 Tw
+(A Quest\343o 3 foi atendida por um agente LLM que integra linguagem natural e chamadas de ferramenta sobre o) Tj
+T*
+0 Tw
+(motor CBR\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 405.6858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 40 Tm
+/F3 10 Tf
+12.5 TL
+0.597181 Tw
+(Em termos de aprendizagem de IA\054 o trabalho demonstra diferentes formas de representa\347\343o e racioc\355nio\072 regras) Tj
+T*
+0 Tw
+0.159232 Tw
+(de produ\347\343o\054 busca em espa\347o de hip\363teses\054 racioc\355nio baseado em casos e agentes com LLM\056 Tamb\351m evidencia) Tj
+T*
+0 Tw
+2.61731 Tw
+(as diferen\347as entre racioc\355nio simb\363lico determin\355stico\054 similaridade vetorial e orquestra\347\343o por modelo de) Tj
+T*
+0 Tw
+(linguagem\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 379.6858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 14 Tf
+17 TL
+(7\056 Refer\352ncias e Artefatos) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 360.1858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(\055 Enunciado\072 Lista 2 de Exerc\355cios de IA\054 AB2\054 Prof\056 Evandro Costa\054 Intelig\352ncia Artificial\054 2026\0561\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 341.6858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(\055 C\363digo\055fonte\072 diret\363rios expert\137shell\054 akinator\054 cbr\137medico e agente\137llm\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 310.6858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 15 Tm
+/F3 10 Tf
+12.5 TL
+(\055 Bases de conhecimento\072 expert\137shell\057domains\057medical\056json\054 akinator\057knowledge\137base\056json e) Tj
+T*
+(cbr\137medico\057cases\056json\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 292.1858 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(\055 Documenta\347\343o t\351cnica local\072 arquivos RELATORIO\137TECNICO\056md de cada implementa\347\343o\056) Tj
+T*
+ET
+Q
+Q
+
+endstream
+endobj
+27 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+29 0 obj
+<<
+/Length 2716
+>>
+stream
+q
+q
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+Q
+q
+1 0 0 1 76.86614 662.6929 cm
+Q
+q
+1 0 0 1 76.86614 638.6929 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 20 Tf
+24 TL
+33.29386 0 Td
+(UNIVERSIDADE FEDERAL DE ALAGOAS) Tj
+T*
+-33.29386 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 612.6929 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+165.2194 0 Td
+(Instituto de Computa\347\343o) Tj
+T*
+-165.2194 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 593.6929 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+167.0329 0 Td
+(Ci\352ncia da Computa\347\343o) Tj
+T*
+-167.0329 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 546.7559 cm
+Q
+q
+1 0 0 1 76.86614 530.7559 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+138.1339 0 Td
+(Disciplina\072 Intelig\352ncia Artificial) Tj
+T*
+-138.1339 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 499.4094 cm
+Q
+q
+1 0 0 1 76.86614 483.4094 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+179.8509 0 Td
+(Relat\363rio T\351cnico) Tj
+T*
+-179.8509 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 456.4094 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 20 Tf
+24 TL
+87.75386 0 Td
+(Lista 2 de Exerc\355cios de IA \055 AB2) Tj
+T*
+-87.75386 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 430.4094 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+189.4124 0 Td
+(Per\355odo 2026\0561) Tj
+T*
+-189.4124 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 401.8976 cm
+Q
+q
+1 0 0 1 76.86614 385.8976 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+202.7829 0 Td
+(Professor) Tj
+T*
+-202.7829 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 366.8976 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+163.9649 0 Td
+(Evandro de Barros Costa) Tj
+T*
+-163.9649 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 331.2992 cm
+Q
+q
+1 0 0 1 76.86614 315.2992 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+197.3619 0 Td
+(Integrantes) Tj
+T*
+-197.3619 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 296.2992 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+164.8619 0 Td
+(Hugo Stankowich Souza) Tj
+T*
+-164.8619 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 277.2992 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+183.2829 0 Td
+(Lucca Paes Costa) Tj
+T*
+-183.2829 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 258.2992 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+154.5919 0 Td
+(Renato Coca Terrazas Freire) Tj
+T*
+-154.5919 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 239.2992 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+165.0374 0 Td
+(Samuel Medino da Silva) Tj
+T*
+-165.0374 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 176.7717 cm
+Q
+q
+1 0 0 1 76.86614 160.7717 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+195.5614 0 Td
+(Macei\363 \055 AL) Tj
+T*
+-195.5614 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 76.86614 141.7717 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F3 13 Tf
+16 TL
+216.1339 0 Td
+(2026) Tj
+T*
+-216.1339 0 Td
+ET
+Q
+Q
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 13 Tf
+15.6 TL
+ET
+BT
+1 0 0 1 221.1555 247 Tm
+(Caio Daniel de Jesus Cavalcante) Tj
+T*
+ET
+Q
+
+
+Q
+
+endstream
+endobj
+30 0 obj
+<<
+/Length 493
+>>
+stream
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-1 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 205 612 145 re
+f*
+0 0 0 rg
+BT
+/F2-1 13 Tf
+15.6 TL
+ET
+BT
+1 0 0 1 277.1205 323 Tm
+(Integrantes) Tj
+T*
+ET
+BT
+1 0 0 1 241.728 302 Tm
+(Hugo Stankowich Souza) Tj
+T*
+ET
+BT
+1 0 0 1 260.149 286 Tm
+(Lucca Paes Costa) Tj
+T*
+ET
+BT
+1 0 0 1 231.458 270 Tm
+(Renato Coca Terrazas Freire) Tj
+T*
+ET
+BT
+1 0 0 1 241.9035 254 Tm
+(Samuel Medino da Silva) Tj
+T*
+ET
+BT
+1 0 0 1 221.1555 238 Tm
+(Caio Daniel de Jesus Cavalcante) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+xref
+0 31
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000155 00000 n 
+0000000204 00000 n 
+0000000393 00000 n 
+0000000426 00000 n 
+0000003023 00000 n 
+0000003238 00000 n 
+0000003354 00000 n 
+0000003461 00000 n 
+0000003569 00000 n 
+0000003678 00000 n 
+0000003788 00000 n 
+0000003898 00000 n 
+0000004004 00000 n 
+0000004195 00000 n 
+0000014442 00000 n 
+0000014633 00000 n 
+0000017490 00000 n 
+0000017681 00000 n 
+0000020665 00000 n 
+0000020856 00000 n 
+0000023948 00000 n 
+0000024139 00000 n 
+0000026962 00000 n 
+0000027153 00000 n 
+0000031348 00000 n 
+0000031456 00000 n 
+0000031566 00000 n 
+0000034335 00000 n 
+trailer
+<<
+/Size 31
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+34880
+%%EOF
