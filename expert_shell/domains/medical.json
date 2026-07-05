@@ -1,0 +1,363 @@
+{
+  "domain_name": "Diagnóstico Médico",
+  "domain_description": "Sistema especialista para diagnóstico de doenças comuns baseado em sintomas e histórico do paciente.",
+  "hypotheses": [
+    "gripe",
+    "covid19",
+    "dengue",
+    "dengue_hemorragica",
+    "pneumonia",
+    "diabetes_tipo2",
+    "hipertensao",
+    "alergia_respiratoria",
+    "gastroenterite",
+    "infeccao_urinaria",
+    "anemia"
+  ],
+  "possible_values": {
+    "febre":              ["alta", "moderada", "baixa", "ausente"],
+    "tosse":              ["seca", "produtiva", "ausente"],
+    "coriza":             ["sim", "nao"],
+    "dor_garganta":       ["sim", "nao"],
+    "dor_muscular":       ["sim", "nao"],
+    "fadiga":             ["sim", "nao"],
+    "perda_olfato":       ["sim", "nao"],
+    "perda_paladar":      ["sim", "nao"],
+    "dificuldade_respirar": ["sim", "nao"],
+    "falta_ar_repouso":   ["sim", "nao"],
+    "dor_cabeca":         ["sim", "nao"],
+    "dor_retro_orbital":  ["sim", "nao"],
+    "manchas_pele":       ["sim", "nao"],
+    "sangramentos":       ["sim", "nao"],
+    "plaquetas":          ["baixas", "normais"],
+    "exposicao_aedes":    ["sim", "nao"],
+    "glicemia":           ["alta", "normal"],
+    "sede_excessiva":     ["sim", "nao"],
+    "frequencia_urinaria": ["alta", "normal"],
+    "visao_turva":        ["sim", "nao"],
+    "historico_diabetes": ["sim", "nao"],
+    "imc":                ["obeso", "sobrepeso", "normal"],
+    "pressao_arterial":   ["alta", "normal", "baixa"],
+    "historico_hipertensao": ["sim", "nao"],
+    "espirros":           ["sim", "nao"],
+    "olhos_vermelhos":    ["sim", "nao"],
+    "diarreia":           ["sim", "nao"],
+    "vomito":             ["sim", "nao"],
+    "enjoo":              ["sim", "nao"],
+    "dor_abdominal":      ["sim", "nao"],
+    "ardencia_urinar":    ["sim", "nao"],
+    "palidez":            ["sim", "nao"],
+    "idade":              ["idoso", "adulto", "jovem", "crianca"],
+    "vacinado_covid":     ["sim", "nao"],
+    "exame_rx_torace":    ["infiltrado", "normal"],
+    "crepitacao_pulmao":  ["sim", "nao"]
+  },
+  "rules": [
+    {
+      "id": "R01",
+      "name": "Gripe Clássica",
+      "conditions": [
+        {"attribute": "febre",       "value": "alta"},
+        {"attribute": "tosse",       "value": "seca"},
+        {"attribute": "dor_muscular","value": "sim"},
+        {"attribute": "fadiga",      "value": "sim"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "gripe"},
+      "description": "Febre alta + tosse seca + dor muscular + fadiga → gripe"
+    },
+    {
+      "id": "R02",
+      "name": "Gripe Leve",
+      "conditions": [
+        {"attribute": "febre",       "value": "moderada"},
+        {"attribute": "tosse",       "value": "seca"},
+        {"attribute": "coriza",      "value": "sim"},
+        {"attribute": "dor_garganta","value": "sim"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "gripe"},
+      "description": "Febre moderada + tosse + coriza + dor de garganta → gripe leve"
+    },
+    {
+      "id": "R03",
+      "name": "COVID-19 — Perda de Olfato/Paladar",
+      "conditions": [
+        {"attribute": "perda_olfato",  "value": "sim"},
+        {"attribute": "perda_paladar", "value": "sim"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "covid19"},
+      "description": "Perda de olfato + paladar → COVID-19 (sinal característico)"
+    },
+    {
+      "id": "R04",
+      "name": "COVID-19 — Forma Grave",
+      "conditions": [
+        {"attribute": "febre",               "value": "alta"},
+        {"attribute": "tosse",               "value": "seca"},
+        {"attribute": "dificuldade_respirar", "value": "sim"},
+        {"attribute": "fadiga",              "value": "sim"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "covid19"},
+      "description": "Febre + tosse seca + dificuldade respirar + fadiga → COVID-19 grave"
+    },
+    {
+      "id": "R05",
+      "name": "COVID-19 — Olfato + Febre",
+      "conditions": [
+        {"attribute": "perda_olfato", "value": "sim"},
+        {"attribute": "febre",        "value": "alta"},
+        {"attribute": "tosse",        "value": "seca"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "covid19"},
+      "description": "Perda de olfato + febre alta + tosse seca → alta suspeita de COVID-19"
+    },
+    {
+      "id": "R06",
+      "name": "COVID-19 Grave com Falta de Ar",
+      "conditions": [
+        {"attribute": "suspeita",       "value": "covid19"},
+        {"attribute": "falta_ar_repouso", "value": "sim"}
+      ],
+      "conclusion": {"attribute": "risco", "value": "covid_grave"},
+      "description": "COVID-19 confirmado + falta de ar em repouso → risco grave"
+    },
+    {
+      "id": "R07",
+      "name": "COVID-19 — Idoso Não Vacinado",
+      "conditions": [
+        {"attribute": "suspeita",     "value": "covid19"},
+        {"attribute": "vacinado_covid","value": "nao"},
+        {"attribute": "idade",         "value": "idoso"}
+      ],
+      "conclusion": {"attribute": "risco", "value": "covid_alto_risco"},
+      "description": "COVID-19 em idoso não vacinado → risco elevado"
+    },
+    {
+      "id": "R08",
+      "name": "Dengue Clássica",
+      "conditions": [
+        {"attribute": "febre",            "value": "alta"},
+        {"attribute": "dor_retro_orbital", "value": "sim"},
+        {"attribute": "dor_muscular",     "value": "sim"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "dengue"},
+      "description": "Febre alta + dor atrás dos olhos + dor muscular → dengue"
+    },
+    {
+      "id": "R09",
+      "name": "Dengue com Exposição ao Aedes",
+      "conditions": [
+        {"attribute": "exposicao_aedes", "value": "sim"},
+        {"attribute": "febre",           "value": "alta"},
+        {"attribute": "enjoo",           "value": "sim"},
+        {"attribute": "dor_cabeca",      "value": "sim"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "dengue"},
+      "description": "Exposição ao Aedes + febre + enjoo + cefaleia → dengue"
+    },
+    {
+      "id": "R10",
+      "name": "Dengue com Manchas e Exposição",
+      "conditions": [
+        {"attribute": "exposicao_aedes", "value": "sim"},
+        {"attribute": "febre",           "value": "alta"},
+        {"attribute": "manchas_pele",    "value": "sim"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "dengue"},
+      "description": "Exposição ao mosquito + febre + manchas → suspeita de dengue"
+    },
+    {
+      "id": "R11",
+      "name": "Dengue Hemorrágica",
+      "conditions": [
+        {"attribute": "suspeita",    "value": "dengue"},
+        {"attribute": "manchas_pele","value": "sim"},
+        {"attribute": "sangramentos","value": "sim"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "dengue_hemorragica"},
+      "description": "Dengue + manchas na pele + sangramentos → dengue hemorrágica"
+    },
+    {
+      "id": "R12",
+      "name": "Risco de Dengue Grave por Plaquetas",
+      "conditions": [
+        {"attribute": "suspeita", "value": "dengue"},
+        {"attribute": "plaquetas","value": "baixas"}
+      ],
+      "conclusion": {"attribute": "risco", "value": "dengue_grave"},
+      "description": "Dengue + plaquetas baixas → risco de dengue grave"
+    },
+    {
+      "id": "R13",
+      "name": "Pneumonia Bacteriana",
+      "conditions": [
+        {"attribute": "tosse",           "value": "produtiva"},
+        {"attribute": "falta_ar_repouso","value": "sim"},
+        {"attribute": "febre",           "value": "alta"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "pneumonia"},
+      "description": "Tosse produtiva + dispneia + febre alta → pneumonia"
+    },
+    {
+      "id": "R14",
+      "name": "Pneumonia com Crepitação",
+      "conditions": [
+        {"attribute": "crepitacao_pulmao","value": "sim"},
+        {"attribute": "febre",            "value": "alta"},
+        {"attribute": "tosse",            "value": "produtiva"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "pneumonia"},
+      "description": "Crepitação pulmonar + febre + tosse produtiva → pneumonia"
+    },
+    {
+      "id": "R15",
+      "name": "Pneumonia Confirmada por RX",
+      "conditions": [
+        {"attribute": "suspeita",       "value": "pneumonia"},
+        {"attribute": "exame_rx_torace","value": "infiltrado"}
+      ],
+      "conclusion": {"attribute": "diagnostico", "value": "pneumonia"},
+      "description": "Suspeita de pneumonia + RX com infiltrado → diagnóstico confirmado"
+    },
+    {
+      "id": "R16",
+      "name": "Diabetes Tipo 2 Clássico",
+      "conditions": [
+        {"attribute": "glicemia",          "value": "alta"},
+        {"attribute": "sede_excessiva",    "value": "sim"},
+        {"attribute": "frequencia_urinaria","value": "alta"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "diabetes_tipo2"},
+      "description": "Hiperglicemia + polidipsia + poliúria → diabetes tipo 2"
+    },
+    {
+      "id": "R17",
+      "name": "Risco de Diabetes por Histórico + Obesidade",
+      "conditions": [
+        {"attribute": "historico_diabetes","value": "sim"},
+        {"attribute": "imc",              "value": "obeso"}
+      ],
+      "conclusion": {"attribute": "risco", "value": "diabetes_tipo2"},
+      "description": "Histórico familiar + obesidade → risco aumentado de diabetes"
+    },
+    {
+      "id": "R18",
+      "name": "Diabetes com Complicação Ocular",
+      "conditions": [
+        {"attribute": "suspeita",    "value": "diabetes_tipo2"},
+        {"attribute": "visao_turva", "value": "sim"}
+      ],
+      "conclusion": {"attribute": "risco", "value": "diabetes_avancado"},
+      "description": "Diabetes + visão turva → possível retinopatia diabética"
+    },
+    {
+      "id": "R19",
+      "name": "Hipertensão com Histórico Familiar",
+      "conditions": [
+        {"attribute": "pressao_arterial",     "value": "alta"},
+        {"attribute": "historico_hipertensao","value": "sim"}
+      ],
+      "conclusion": {"attribute": "diagnostico", "value": "hipertensao"},
+      "description": "Pressão alta + histórico familiar → hipertensão arterial"
+    },
+    {
+      "id": "R20",
+      "name": "Hipertensão por Obesidade",
+      "conditions": [
+        {"attribute": "pressao_arterial","value": "alta"},
+        {"attribute": "imc",            "value": "obeso"},
+        {"attribute": "idade",          "value": "adulto"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "hipertensao"},
+      "description": "Pressão alta + obesidade em adulto → hipertensão"
+    },
+    {
+      "id": "R21",
+      "name": "Alergia Respiratória Clássica",
+      "conditions": [
+        {"attribute": "espirros",      "value": "sim"},
+        {"attribute": "coriza",        "value": "sim"},
+        {"attribute": "olhos_vermelhos","value": "sim"},
+        {"attribute": "febre",         "value": "ausente"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "alergia_respiratoria"},
+      "description": "Espirros + coriza + olhos vermelhos sem febre → rinite/alergia"
+    },
+    {
+      "id": "R22",
+      "name": "Alergia Respiratória sem Febre",
+      "conditions": [
+        {"attribute": "espirros",    "value": "sim"},
+        {"attribute": "coriza",      "value": "sim"},
+        {"attribute": "febre",       "value": "ausente"},
+        {"attribute": "dor_muscular","value": "nao"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "alergia_respiratoria"},
+      "description": "Espirros + coriza, sem febre nem dor muscular → alergia"
+    },
+    {
+      "id": "R23",
+      "name": "Gastroenterite Viral",
+      "conditions": [
+        {"attribute": "diarreia",    "value": "sim"},
+        {"attribute": "vomito",      "value": "sim"},
+        {"attribute": "dor_abdominal","value": "sim"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "gastroenterite"},
+      "description": "Diarreia + vômito + dor abdominal → gastroenterite"
+    },
+    {
+      "id": "R24",
+      "name": "Gastroenterite Infecciosa",
+      "conditions": [
+        {"attribute": "suspeita", "value": "gastroenterite"},
+        {"attribute": "febre",    "value": "moderada"}
+      ],
+      "conclusion": {"attribute": "diagnostico", "value": "gastroenterite_infecciosa"},
+      "description": "Gastroenterite + febre moderada → origem infecciosa"
+    },
+    {
+      "id": "R25",
+      "name": "Infecção Urinária",
+      "conditions": [
+        {"attribute": "ardencia_urinar",   "value": "sim"},
+        {"attribute": "frequencia_urinaria","value": "alta"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "infeccao_urinaria"},
+      "description": "Ardência + frequência urinária aumentada → ITU"
+    },
+    {
+      "id": "R26",
+      "name": "Infecção Urinária Complicada",
+      "conditions": [
+        {"attribute": "suspeita",    "value": "infeccao_urinaria"},
+        {"attribute": "febre",       "value": "moderada"},
+        {"attribute": "dor_abdominal","value": "sim"}
+      ],
+      "conclusion": {"attribute": "diagnostico", "value": "infeccao_urinaria"},
+      "description": "ITU + febre + dor abdominal → possível pielonefrite"
+    },
+    {
+      "id": "R27",
+      "name": "Anemia",
+      "conditions": [
+        {"attribute": "fadiga",     "value": "sim"},
+        {"attribute": "palidez",    "value": "sim"},
+        {"attribute": "visao_turva","value": "sim"}
+      ],
+      "conclusion": {"attribute": "suspeita", "value": "anemia"},
+      "description": "Fadiga + palidez + visão turva → suspeita de anemia"
+    },
+    {
+      "id": "R28",
+      "name": "Gripe com Risco de Complicação",
+      "conditions": [
+        {"attribute": "suspeita",           "value": "gripe"},
+        {"attribute": "febre",              "value": "alta"},
+        {"attribute": "dificuldade_respirar","value": "sim"}
+      ],
+      "conclusion": {"attribute": "risco", "value": "gripe_complicada"},
+      "description": "Gripe + febre alta + dificuldade respirar → risco de complicação"
+    }
+  ],
+  "initial_facts": {}
+}
